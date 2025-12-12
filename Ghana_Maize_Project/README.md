@@ -16,6 +16,6 @@ Quick steps (safe, minimal actions):
 Why this order:
 
 - The install cell safely installs missing packages without executing data downloads or pipeline steps.
-- Running only the MODEL TRAINING cell is the fastest way to train the model if you already have the processed master dataset.
+- Running only the model.ipynb in the notebook folder is the fastest way to train the model if you already have the processed master dataset.
 
 If you need to rebuild the dataset or regenerate reports, run the earlier notebook cells in order  but be aware of long API calls and processing time.
